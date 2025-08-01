@@ -1,0 +1,57 @@
+:root {
+  /* Primary Brand Colors */
+  --color-deep-blue: #0066B2;
+  --color-medium-blue: #0094D9;
+  --color-light-sky-blue: #71C5E8;
+
+  /* Neutral Colors */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-charcoal: #333333;
+
+  /* Backgrounds */
+  --background-light: #F9FAFB; /* Optional for clean UI */
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--color-charcoal);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-deep-blue);
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-deep-blue);
+}
+
+.button-primary {
+  background-color: var(--color-deep-blue);
+  color: var(--color-white);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: var(--color-medium-blue);
+}
+
+.navbar {
+  background-color: var(--color-deep-blue);
+  color: var(--color-white);
+  
+}
+
+.footer {
+  background-color: var(--color-charcoal);
+  color: var(--color-light-sky-blue); 
+}

@@ -1,0 +1,111 @@
+/* src/styles/Portfolio.css */
+
+.portfolio-section {
+  padding: 4rem 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #0066B2;
+}
+
+.portfolio-subtitle {
+  max-width: 750px;
+  margin: 0 auto 3rem;
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  gap: 3rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.portfolio-card {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.portfolio-card:hover {
+  background-color: #e7f6f2;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
+}
+
+.portfolio-card:hover img {
+  transform: scale(1.05);
+}
+
+.portfolio-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 10;
+  
+}
+
+.zoom-icon {
+  font-size: 2rem;
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .portfolio-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .portfolio-title {
+    font-size: 2.2rem;
+  }
+
+  .portfolio-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 900px;
+    height: 1700px;
+  }
+
+  .portfolio-card img {
+    height: 250px;
+  
+   
+  }
+
+  .zoom-icon {
+    font-size: 1.5rem;
+  }
+}

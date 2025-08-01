@@ -1,0 +1,62 @@
+/* src/styles/Hero.css */
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(128, 126, 126, 0.6)
+    ),
+    url('../assets/fina.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero-content {
+  max-width: 700px;
+  padding: 1rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  
+}

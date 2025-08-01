@@ -1,0 +1,131 @@
+.product-section {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+
+.product-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #0066B2;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.download-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #333;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .product-section {
+    padding: 2rem 1rem;
+  }
+
+  .product-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .product-grid {
+    gap: 1.5rem;
+    padding: 0;
+     max-width: 900px;
+    height: 1200vw;
+  }
+
+  .product-card {
+    padding: rem;
+    border-radius: 0.75rem;
+    object-fit: cover;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+    
+  }
+
+  .product-card img {
+    height: 250px;
+  }
+
+  .product-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .product-card p {
+    font-size: 1rem;
+  }
+
+  .download-button {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card img {
+    height: 160px;
+  }
+
+  .product-title {
+    font-size: 1.3rem;
+  }
+
+  .product-card h3 {
+    font-size: 1rem;
+  }
+
+  .product-card p {
+    font-size: 0.85rem;
+  }
+
+  .download-button {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.8rem;
+  }
+}
