@@ -2,13 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./Industries.css";
 import img1 from "../assets/use1.jpg";
-import img2 from "../assets/use2.jpg";
-import img3 from "../assets/use3.jpg";
-import img4 from "../assets/use4.jpg";
-import img5 from "../assets/use5.jpg";
-import img6 from "../assets/use6.jpg";
-import img7 from "../assets/use7.jpg";
-import img8 from "../assets/use8.jpg";
+import img2 from "../assets/use2.JPG";
+import img3 from "../assets/use3.JPG";
+import img4 from "../assets/use4.JPG";
+import img5 from "../assets/use5.JPG";
+import img6 from "../assets/use6.JPG";
+import img7 from "../assets/use7.JPG";
+import img8 from "../assets/use8.JPG";
 const industries = [
   { title: "Textile Industry", image: img7 },
   { title: "Pharmaceuticals", image:img8 },
