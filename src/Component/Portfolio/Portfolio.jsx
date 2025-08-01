@@ -6,7 +6,7 @@ import motor1 from "../assets/pro1.jpg"
 import motor2 from "../assets/motor1.png"
 import motor3 from "../assets/p1.jpg"
 import motor4 from "../assets/p2.jpg"
-import motor5 from "../assets/pro2.jpg"
+import motor5 from "../assets/pro2.JPG"
 import motor6 from "../assets/p3.jpg"
 
 const images = [motor1, motor2, motor3, motor4, motor5, motor6];
