@@ -3,7 +3,7 @@ import './Team.css'; // if you have a CSS file for styling
 
 import person1 from '../assets/selfB.png';
 import person2 from '../assets/selfA.png';
-import person3 from '../assets/selfC.png';
+import person3 from '../assets/selfc.png';
 
 const Team = () => {
   return (
