@@ -21,10 +21,10 @@ const Footer = () => {
         <div className="footer-section links">
           <h3>Quick Links</h3>
           <ul>
-            <li>Home</li>
-            <li>About Us/li>
-            <li>Products/li>
-            <li>Services/li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/contact">Contact Us</a></li>
           </ul>
         </div>
 
@@ -32,7 +32,7 @@ const Footer = () => {
           <h3>Contact</h3>
           <p>📞: +91 98765 43210</p>
           <p>📧: bhavani.induction.motor@gmail.com</p>
-          <p><a href='https://maps.app.goo.gl/MFJYgjcHwXt658bi8'>📍:  7, Shivjyot Complex, Khodiyarnagar Cross Road,N.H. No-8, Bapunagar, Ahmedabad-380024</a></p>
+          <p><a href='https://maps.app.goo.gl/i8PFFGv6nJCswXux7?g_st=ipc'>📍:  7, Shivjyot Complex, Khodiyarnagar Cross Road,N.H. No-8, Bapunagar, Ahmedabad-380024</a></p>
         </div>
 
         <div className="footer-section social">
