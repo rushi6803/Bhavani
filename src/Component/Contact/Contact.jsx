@@ -40,7 +40,7 @@ const Contact = () => {
         >
           <iframe
             title="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.7286864743974!2d72.63899359999999!3d23.033732000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86f2cc4c6953%3A0xc7c54b560bad8789!2sShivjyot%20Complex%2C%20Manhar%20Nagar%2C%20Bapunagar%2C%20Ahmedabad%2C%20Gujarat%20380024!5e0!3m2!1sen!2sin!4v1753957908018!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.7311828146712!2d72.63648897554387!3d23.03364037916603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87b70f74ae61%3A0x769dd604be7a7be0!2sBhavani%20Induction%20Motors!5e0!3m2!1sen!2sin!4v1760859951437!5m2!1sen!2sin"
             width="100%"
             height="300"
             style={{ border: "0", borderRadius: "12px" }}
