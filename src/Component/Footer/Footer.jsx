@@ -21,10 +21,10 @@ const Footer = () => {
         <div className="footer-section links">
           <h3>Quick Links</h3>
           <ul>
-            <NavLink to="/"><li>Home</li></NavLink>
-            <NavLink to="/about"><li>About Us/li></NavLink>
-            <NavLink to="/product"><li>Products/li></NavLink>
-            <NavLink to="/services"><li>Services/li> </NavLink>
+            <li>Home</li>
+            <li>About Us/li>
+            <li>Products/li>
+            <li>Services/li>
           </ul>
         </div>
 
