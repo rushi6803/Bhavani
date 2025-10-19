@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { motion } from 'framer-motion';
 import { FaWhatsapp, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom'
+
 const Footer = () => {
   return (
     <motion.footer
