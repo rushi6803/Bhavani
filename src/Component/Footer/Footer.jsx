@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { motion } from 'framer-motion';
 import { FaWhatsapp, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
-
+import { NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
     <motion.footer
@@ -21,10 +21,10 @@ const Footer = () => {
         <div className="footer-section links">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/contact">Contact Us</a></li>
+            <li><NavLink to="/">Home</a></NavLink>
+            <li><NavLink to="/about">About Us</NavLink></li>
+            <li><NavLink to="/products">Products</NavLink></li>
+            <li><NavLink to="/contact">Contact Us</NavLink></li>
           </ul>
         </div>
 
