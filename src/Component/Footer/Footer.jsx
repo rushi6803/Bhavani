@@ -23,8 +23,8 @@ const Footer = () => {
           <ul>
             <li><NavLink to="/">Home</a></NavLink>
             <li><NavLink to="/about">About Us</NavLink></li>
-            <li><NavLink to="/products">Products</NavLink></li>
-            <li><NavLink to="/contact">Contact Us</NavLink></li>
+            <li><NavLink to="/product">Products</NavLink></li>
+            <li><NavLink to="/services">Services </NavLink></li>
           </ul>
         </div>
 
