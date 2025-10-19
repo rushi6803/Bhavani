@@ -1,7 +1,7 @@
 /* src/pages/Contact.css */
 
 .contact-section {
-  padding: 4rem 2rem;
+  padding: 4rem 1.5rem;
   background-color: #f9f9f9;
   text-align: center;
 }
@@ -9,52 +9,104 @@
 .contact-title {
   font-size: 2.5rem;
   color: #0066B2;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
 }
 
 .contact-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: stretch;
   gap: 2rem;
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .contact-info {
-  flex: 1 1 300px;
+  flex: 1 1 350px;
+  background: #fff;
   text-align: left;
-  background: white;
   padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.contact-info:hover {
+  transform: translateY(-4px);
 }
 
 .contact-info h3 {
   color: #0066B2;
   margin-bottom: 1rem;
+  font-size: 1.4rem;
 }
 
 .contact-info p {
   color: #555;
   margin-bottom: 0.8rem;
   font-size: 1rem;
+  line-height: 1.5;
+  word-wrap: break-word;
 }
 
 .contact-map {
-  flex: 1 1 300px;
-  border-radius: 12px;
+  flex: 1 1 350px;
+  border-radius: 16px;
   overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
 }
 
-/* Responsive */
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  border: none;
+  border-radius: 16px;
+}
+
+/* 🔹 Mobile Responsive Fixes */
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
-    gap: 1rem;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .contact-info,
+  .contact-map {
+    width: 100%;
+    max-width: 450px;
   }
 
   .contact-title {
     font-size: 2rem;
+  }
+
+  .contact-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-info p {
+    font-size: 0.95rem;
+  }
+}
+
+/* 🔹 For very small screens (under 400px) */
+@media (max-width: 400px) {
+  .contact-section {
+    padding: 3rem 1rem;
+  }
+
+  .contact-title {
+    font-size: 1.8rem;
+  }
+
+  .contact-info,
+  .contact-map {
+    padding: 1.5rem;
+    border-radius: 12px;
   }
 }
