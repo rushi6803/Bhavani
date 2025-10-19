@@ -32,7 +32,7 @@ const Footer = () => {
           <h3>Contact</h3>
           <p>📞: +91 98765 43210</p>
           <p>📧: bhavani.induction.motor@gmail.com</p>
-          <p><a href='https://maps.app.goo.gl/i8PFFGv6nJCswXux7?g_st=ipc'>📍:  7, Shivjyot Complex, Khodiyarnagar Cross Road,N.H. No-8, Bapunagar, Ahmedabad-380024</a></p>
+          <p><a href='https://maps.app.goo.gl/MFJYgjcHwXt658bi8'>📍:  7, Shivjyot Complex, Khodiyarnagar Cross Road,N.H. No-8, Bapunagar, Ahmedabad-380024</a></p>
         </div>
 
         <div className="footer-section social">
